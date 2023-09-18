@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Defina a altura da tela inteira */
+    margin: 0;
+    background-image: url('https://media.giphy.com/media/bKj0qEKTVBdF2o5Dgn/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+h1 {
+    color: #800000;
+    font-size: 36px;
+    margin: 20px;
+}
+
+#password {
+    background-color: white;
+    font-size: 24px;
+    margin: 20px;
+    padding: 10px;
+    border: 0.5px solid #ccc;
+}
+
+#generate,  #copy {
+    font-size: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    width: 200px;
+}
+
+#copy {
+    background: linear-gradient(to right, #6157FF, #9933FF);
+}
+
+#copy.copied {
+    background: linear-gradient(to right, #00ff0d, #58ffba);
+    color: black;
+    font-weight: bold;
+}
+
