@@ -49,3 +49,18 @@ h1 {
     font-weight: bold;
 }
 
+/* Estilos para telas menores (tablets e smartphones) */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    #password {
+        font-size: 18px;
+    }
+
+    #generate, #copy {
+        font-size: 14px;
+        width: 150px;
+    }
+}
