@@ -12,6 +12,9 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+
+
 h1 {
     color: #800000;
     font-size: 36px;
@@ -49,7 +52,7 @@ h1 {
 }
 
 /* Estilos para telas menores (tablets e smartphones) */
-@media (max-width: 768px) {
+@media (max-width: 798px) {
     h1 {
         font-size: 24px;
     }
