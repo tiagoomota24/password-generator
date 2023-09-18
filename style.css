@@ -11,17 +11,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-attachment: fixed; /* Isso ajuda a imagem a permanecer fixa em dispositivos móveis */
 }
-
-/* Adicione uma media query para estilos específicos de dispositivos móveis */
-@media (max-width: 390px) {
-    body {
-        background-size: contain; /* Use 'contain' para ajustar a imagem em dispositivos móveis */
-        background-attachment: scroll; /* Rolar a imagem normalmente em dispositivos móveis */
-    }
-}
-
 h1 {
     color: #800000;
     font-size: 36px;
@@ -59,7 +49,7 @@ h1 {
 }
 
 /* Estilos para telas menores (tablets e smartphones) */
-@media (max-width: 390px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 24px;
     }
